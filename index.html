@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <script src="script.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-------------------------------------------------------------header----------------------------------------------------------------------------------------------------------------------->
+
+        <div class="row fixed-top header" id="header">
+
+            <div class="col-lg-6 col-md-12 col-sm-12 contact-dt">
+                <h3>Ravishan Wijayasinghe</h3>
+                <h5><i class="bi bi-envelope-at"></i> wijayasingheravishan@gmail.com</h5>
+                <h5 style="margin-bottom: 0px;"><i class="bi bi-phone"></i> +9471 879 6301</h5>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 nav-sec">
+                <nav class="navbar" id="navbar">
+                    <div class="d-none d-sm-flex d-md-flex d-lg-flex">
+                        <a href="#profile" style="margin-left: 0px;">Profile</a>
+                        <a href="#education">Education</a>
+                        <a href="#experiance">Experiance</a>
+                        <a href="#project">Projects</a>
+                        <a href="#skill">Skills</a>
+                        <a href="#perinfo" style="margin-right: 0px;">Personal Information</a>
+                    </div>
+
+                    <div class="d-flex d-sm-none d-md-none d-lg-none">
+                        <button class="navbar-toggler" style="background-color: white;" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+
+                    <div class="offcanvas offcanvas-end canva-custom" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-body" style="background-color: navy; color: wheat; opacity: 1;">
+                            <div class="sidenav">
+                                <a href="#profile" style="margin-left: 0px;">Profile</a>
+                                <a href="#education">Education</a>
+                                <a href="#experiance">Experiance</a>
+                                <a href="#project">Projects</a>
+                                <a href="#skill">Skills</a>
+                                <a href="#perinfo" style="margin-right: 0px;">Personal Information</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-------------------------------------------------------------profile----------------------------------------------------------------------------------------------------------------------->
+
+
+        <div class="row profile-row" id="profile">
+
+            <div class="col-lg-12 profile-title-col">
+                <h4 style="margin-bottom: 0; color: navy;">Profile</h4>
+            </div>
+
+            <div class="col-lg-12 profile-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 profile-left-col">
+                            <div class="profile-pic">
+                                <img src="Images/profile-pic.jpeg" alt="profile picture">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-8 profile-right-col">
+                            <p>
+                                I am a mechanical engineering student with a passion for <strong>mechatronics system
+                                    engineering</strong>.
+                                Currently I am in final year of studying for bachelor’s degree in engineering at
+                                <a href="https://uom.lk/" target="_blank" style="text-decoration: none; color: black;"
+                                    onmouseover="this.style.color='#b35b51'"
+                                    onmouseout="this.style.color='black'">University of Moratuwa</a>.
+                                I am dedicated to leveraging my academic knowledge and hands-on experience to
+                                contribute effectively in the field of engineering.
+                                <br><br>Throughout my academic journey, I have acquired a strong foundation in
+                                <strong>computer aided designing, mechatronic systems, robotics, automation, mechanical
+                                    designing,
+                                    artificial intelligence, computer programming,</strong>
+                                and I am adept at applying theoretical concepts to real-world engineering challenges.
+                                I was able to apply the theoretical concepts in these areas to several projects and also
+                                during my industrial training period.
+                                <br><br>I am seeking opportunities to apply my engineering knowledge and contribute to
+                                innovative projects.
+                                With a solid academic background, a passion for mechatronics system engineering, and a
+                                commitment to excellence,
+                                I am confident in my ability to make meaningful contributions to any engineering team.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-------------------------------------------------------------education----------------------------------------------------------------------------------------------------------------------->
+
+        <div class="row edu-row" id="education" style="border-top: 3px solid navy;">
+            <div class="col-lg-12 edu-title-col">
+                <h4 style="margin-bottom: 0; color: navy;">Education</h4>
+            </div>
+            <div class="col-lr-12 edu-dt-col">
+                <h6 style="font-weight: bold;">BSc Engineering undergraduate (Specializing in Mechanical Engineering)
+                </h6>
+                <h6><a href="https://uom.lk/" target="_blank" style="text-decoration: none; color: black;"
+                        onmouseover="this.style.color='#b35b51'" onmouseout="this.style.color='black'">University of
+                        Moratuwa</a></h6>
+                <h6 style="margin-bottom: 0;">Current GPA : 3.03</h6>
+            </div>
+        </div>
+
+        <!-------------------------------------------------------------experiance----------------------------------------------------------------------------------------------------------------------->
+
+        <div class="row exp-row" style="border-top: 3px solid navy;" id="experiance">
+            <div class="col-lg-12 exp-title-col">
+                <h4 style="margin-bottom: 0; color: navy;">Experiances</h4>
+            </div>
+            <div class="col-lg-12 exp1">
+                <div class="card" style="border-style: none;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4" style="display: flex; justify-content: center; align-items: center;">
+                                <div>
+                                    <img src="Images/vega-logo.png" class="card-img-top" alt="vega-logo"
+                                        style="max-width: 100%; height: auto;">
+                                </div>
+                            </div>
+                            <div class="col-lg-8" style="display: flex; justify-content: center; align-items: center;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Trainee Mechanical Engineer at VEGA INNOVATION</h5>
+                                    <p class="card-text">
+                                        I worked as a Trainee Mechanical Engineer at VEGA INNOVATION during a
+                                        <strong>six month</strong> of industrial training period.
+                                        collaborating with the VEGA Battery R&D team I worked in several design and
+                                        manufacturing projects.
+                                        I gained lot of hands-on experience in <strong>computer-aided designing,
+                                            computer-aided manufacturing</strong>.
+                                        The projects I was involved in and the tasks I did and the experience gained
+                                        under those projects are as follows:
+                                    </p>
+                                    <ul>
+                                        <li>Projects:
+                                            <ul>
+                                                <li style="margin-top: 15px;">
+                                                    CB750 Electric Conversion Project:
+                                                    <ul>
+                                                        <li>
+                                                            Bus bar design, Cell holder design, Design of high voltage
+                                                            system: <strong>CAD - SOLIDWORK</strong>.
+                                                        </li>
+                                                        <li>
+                                                            Simulation of joule heat generation: <strong>FEA – COMSOL
+                                                                Multiphysics</strong>.
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li style="margin-top: 15px;">
+                                                    ETX Battery Pack Project:
+                                                    <ul>
+                                                        <li>
+                                                            Cell arrangement design, Cell holder design, 2D production
+                                                            drawings, Busbar design: <strong>CAD – SOLIDWORK</strong>.
+                                                        </li>
+                                                        <li>
+                                                            Jig design and manufacturing, Laser welding: <strong>CAM,
+                                                                Laser welding technology</strong>.
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li style="margin-top: 15px;">
+                                                    Other projects: <strong>CAD-SOLIDWORK, CAM – CNC laser welding,
+                                                        laser cutting and 3D printing</strong>.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary" onclick="send_msg()"
+                                        style="background-color: navy;">More details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------------------------------------------projects----------------------------------------------------------------------------------------------------------------------->
+
+        <div class="row project-row" style="border-top: 3px solid navy;" id="project">
+            <div class="col-lg-12 project-title-col">
+                <h4 style="margin-bottom: 0; color: navy;">Projects</h4>
+            </div>
+
+            <div class="col-lg-12 project-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h5>FYP - AI Based Machine for Plastic Waste Sorting</h5>
+                        </div>
+
+                        <div class="col-lg-12">
+                            still develiping...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 project-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h5>Follow-Up Camera Slider</h5>
+                        </div>
+                        <div class="col-lg-12" style="display: flex; justify-content: center; padding: 10px;">
+                            <div id="carouselExampleIndicators" class="carousel slide" style="width: 50%;"
+                                data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Images/Screenshot (1).png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Images/Screenshot (2).png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Images/Screenshot (3).png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Images/Screenshot (4).png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <ul>
+                                <li>This is a mechatronics project.</li>
+                                <li>Group Project.</li>
+                                <li>We develpped an automated camera slider which autonoumusly follow a hand when the
+                                    hand is writing on a white board.</li>
+                                <li>My contibution:</li>
+                                <ul>
+                                    <li>Developed algorithms to recognize a hand, its gestures and track the hand.</li>
+                                    <li>Used machine learning models to recognize the hand and classify the gestures.
+                                    </li>
+                                    <li>Trained the machine learning moddel using our data set.</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 project-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h5>IoT base Automation Project</h5>
+                        </div>
+
+                        <div class="col-lg-12">
+                            still develiping...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 project-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h5>IoT base Automation Project</h5>
+                        </div>
+
+                        <div class="col-lg-12">
+                            still develiping...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 project-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h5>Front End Web Designing Project</h5>
+                        </div>
+
+                        <div class="col-lg-12">
+                            still develiping...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 project-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h5>Computer Vission Project - Lane line detection</h5>
+                        </div>
+
+                        <div class="col-lg-12">
+                            still develiping...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 project-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h5>Machine Designing Project</h5>
+                        </div>
+
+                        <div class="col-lg-12">
+                            still develiping...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 project-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h5>Reverse Engineering Project</h5>
+                        </div>
+
+                        <div class="col-lg-12">
+                            still develiping...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 project-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h5>Line Following Robot</h5>
+                        </div>
+
+                        <div class="col-lg-12">
+                            still develiping...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-------------------------------------------------------------skills----------------------------------------------------------------------------------------------------------------------->
+
+        <div class="row skill-row" style="display: flex; justify-content: center; border-top: 3px solid navy;"
+            id="skill">
+            <div class="col-lg-12 skill-title-col">
+                <h4 style="margin-bottom: 0; color: navy;">Skills</h4>
+            </div>
+
+            <div class="col-lg-12 skill-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 skill-left">
+                            <h6>CAD - SOLIDWORK</h6>
+                        </div>
+                        <div class="col-lg-5 skill-right">
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
+                                <div class="progress-barf" style="width: 75%; background-color: navy;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 skill-left">
+                            <h6>CAD - AutoCAD</h6>
+                        </div>
+                        <div class="col-lg-5 skill-right">
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
+                                <div class="progress-barf" style="width: 50%; background-color: navy;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 skill-left">
+                            <h6>FEA - COMSOL Multiphysics / Seimens NX</h6>
+                        </div>
+                        <div class="col-lg-5 skill-right">
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="35"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
+                                <div class="progress-barf" style="width: 35%; background-color: navy;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 skill-left">
+                            <h6>PLC programming - Seimens S7-200 / Yokugawa PLC</h6>
+                        </div>
+                        <div class="col-lg-5 skill-right">
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
+                                <div class="progress-barf" style="width: 50%; background-color: navy;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 skill-left">
+                            <h6>Micro Controller Programing - Arduino / ESP32/8266</h6>
+                        </div>
+                        <div class="col-lg-5 skill-right">
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
+                                <div class="progress-barf" style="width: 75%; background-color: navy;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 skill-left">
+                            <h6>Object Oriented Programing - C++ / Python</h6>
+                        </div>
+                        <div class="col-lg-5 skill-right">
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
+                                <div class="progress-barf" style="width: 80%; background-color: navy;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 skill-left">
+                            <h6>Front end web development - HTML / CSS / JavaScript</h6>
+                        </div>
+                        <div class="col-lg-5 skill-right">
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="60"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
+                                <div class="progress-barf" style="width: 60%; background-color: navy;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 skill-left">
+                            <h6>AI based development - Deep learning / Machine learning</h6>
+                        </div>
+                        <div class="col-lg-5 skill-right">
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="35"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
+                                <div class="progress-barf" style="width: 35%; background-color: navy;"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 skill-left">
+                            <h6>Computer Vision - OpenCV</h6>
+                        </div>
+                        <div class="col-lg-5 skill-right">
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="35"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
+                                <div class="progress-barf" style="width: 35%; background-color: navy;"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------------------------------------------pre-info----------------------------------------------------------------------------------------------------------------------->
+
+        <div class="row perinfo-row" style="border-top: 3px solid navy;" id="perinfo">
+            <div class="col-lg-12 perinfo-title-col">
+                <h4 style="margin-bottom: 0; color: navy;">Personal Information</h4>
+            </div>
+            <div class="col-lg-12" style="display: flex; justify-content: center;">
+                <table class="perinfo-table">
+                    <tr>
+                        <td>Name</td>
+                        <td>Wijayasinghe Mudiyanselage Ravishan Shashi Prabhathpriya Wijayasinghe</td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td>11 / 01 / 1999</td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>Male</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>No:23, Attadhassi Mawaths, Puttalam Road, Kurunegala</td>
+                    </tr>
+                    <tr>
+                        <td>NIC</td>
+                        <td>199901110916</td>
+                    </tr>
+                    <tr>
+                        <td>Civil State</td>
+                        <td>Single</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+
+
+        <!-------------------------------------------------------------footer----------------------------------------------------------------------------------------------------------------------->
+
+        <div class="row footer">
+            <div class="col-lg-6 socialmedia">
+                <a href="https://www.linkedin.com/in/ravishan-wijayasinghe-9747b52a6/" target="_blank"><i
+                        class="bi bi-linkedin"></i></a>
+                <a href="https://twitter.com/Ravishan_W" target="_blank"><i class="bi bi-twitter"
+                        style="margin-right: 10px; margin-left: 10px;"></i></a>
+                <a href="https://web.facebook.com/ravishan.wijayasinghe" target="_blank"><i
+                        class="bi bi-facebook"></i></a>
+            </div>
+            <div class="col-lg-6" style="justify-content: end; display: flex;">
+                <p style="margin: 0;">
+                    Developed by
+                    <a href="index.html" class="Ravishan">Ravishan Wijayasinghe</a>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

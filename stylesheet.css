@@ -1,0 +1,296 @@
+body{
+    scroll-behavior: smooth;
+}
+
+/*---------------------------------------------------header-------------------------------------------------------------------------*/
+.header{
+    margin: 0 !important;
+    background-color: navy;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contact-dt{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.contact-dt h4{
+    /*font-size: 20px;
+    font-weight: normal;*/
+}
+
+.nav-sec{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.nav-sec nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-sec nav a{
+    text-decoration: none;
+    color: white;
+    /*font-size: 20px;
+    font-weight: normal;*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-sec nav a:hover{
+    background-color: white;
+    color: navy;
+}
+
+.canva-custom{
+    width: 60% !important;
+}
+
+.sidenav{
+    display: grid;
+}
+
+.sidenav a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/*---------------------------------------------------profile-------------------------------------------------------------------------*/
+
+.profile-row{
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.profile-card{
+    border: 1px solid #e0e0e0; 
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.profile-title-col{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.profile-left-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-right-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic img{
+    max-width: 100%;
+    height: auto;
+}
+
+.profile-right-col p{
+    /*font-size: 20px;
+    font-weight:normal;*/
+    margin-bottom: 0px;
+    padding-left: 30px;
+}
+
+/*-----------------------------------------------------Education-----------------------------------------------------------------------*/
+
+.edu-row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.edu-title-col{
+    padding-bottom: 30px;
+}
+
+.edu-dt-col{
+    border: 1px solid #e0e0e0; 
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.edu-dt-col h6{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    /*font-size: 20px;
+    font-weight:normal;*/
+}
+
+/*------------------------------------------------Experiances----------------------------------------------------------------------------*/
+
+.exp-row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.exp-title-col{
+    padding-bottom: 30px;
+}
+
+.exp1{
+    display: flex; 
+    justify-content: center;
+    border: 1px solid #e0e0e0; 
+    border-radius: 5px;
+}
+
+/*---------------------------------------------Project-------------------------------------------------------------------------------*/
+
+.project-row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.project-title-col{
+    padding-bottom: 30px;
+}
+
+.project-card{
+    border: 1px solid #e0e0e0; 
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*---------------------------------------------Personal Info-------------------------------------------------------------------------------*/
+
+.perinfo-row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.perinfo-title-col{
+    padding-bottom: 30px;
+}
+
+.perinfo-table {
+    border-collapse: collapse; 
+    width: 100%;
+    border-radius: 20px;
+}
+
+.perinfo-table th, .perinfo-table td {
+    border: 1px solid #e0e0e0; 
+    padding: 8px;
+}
+
+/*.perinfo-table{
+    border-collapse: collapse;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+}*/
+
+/*.perinfo-table tr td{
+    border: 1px solid #e0e0e0;
+    border-radius: 0.25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}*/
+
+
+/*---------------------------------------------Skills-------------------------------------------------------------------------------*/
+
+.skill-row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.skill-card{
+    border: 1px solid #e0e0e0; 
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.skill-title-col{
+    padding-bottom: 30px;
+}
+
+.skill-left{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.skill-right{
+    padding-top: 10px;
+}
+
+/*---------------------------------------------footer-------------------------------------------------------------------------------*/
+
+.footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: navy;
+    color: white;
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+}
+
+.socialmedia a{
+    text-decoration: none; 
+    color: white;
+}
+
+.socialmedia a:hover{
+    color: white;
+    text-shadow:  0 0 10px white, 0 0 20px white, 0 0 30px white;
+}
+
+.Ravishan{
+    text-decoration: none; 
+    color: white;
+}
+
+.Ravishan:hover{
+    color: white;
+    text-shadow:  0 0 10px white, 0 0 20px white, 0 0 30px white;
+}
