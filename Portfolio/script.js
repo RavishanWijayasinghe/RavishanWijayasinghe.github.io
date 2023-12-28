@@ -34,6 +34,34 @@ $(document).ready(function () {
 
 
 
+
+// script.js
+
+document.addEventListener("DOMContentLoaded", function() {
+    let prevScrollPos = window.pageYOffset;
+
+    window.onscroll = function() {
+        let currentScrollPos = window.pageYOffset;
+
+        if (prevScrollPos > currentScrollPos) {
+            document.getElementById("header").style.top = "0";
+        } else {
+            document.getElementById("header").style.top = "-200px"; // Adjust the height of the header
+            document.getElementById("profile").style.top = "0";
+        }
+
+        prevScrollPos = currentScrollPos;
+    };
+});
+
+
+
+
+
+
+
+
+
 function send_msg() {
     alert("Sorry. This page has not developed yet.");
   }

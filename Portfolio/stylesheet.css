@@ -5,27 +5,31 @@ body{
 /*---------------------------------------------------header-------------------------------------------------------------------------*/
 .header{
     margin: 0 !important;
-    background-color: navy;
-    padding-left: 30px;
-    padding-right: 30px;
+    background-color: #0f1056;
+    padding: 1%;
+    z-index: 9999;
+    transition: top 0.3s;
 }
 
 .contact-dt{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    /*padding-top: 15px;
+    padding-bottom: 15px;*/
+    padding: 0 !important;
     color: white;
 }
 
-.contact-dt h4{
+.contact-dt p{
     /*font-size: 20px;
     font-weight: normal;*/
+    margin-bottom: 0.5rem;
 }
 
 .nav-sec{
-    padding-top: 15px;
+    /*padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 0px !important;
-    padding-right: 0px !important;
+    padding-right: 0px !important;*/
+    padding: 0 !important;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -47,7 +51,7 @@ body{
 
 .nav-sec nav a:hover{
     background-color: white;
-    color: navy;
+    color: #0f1056;
 }
 
 .canva-custom{
@@ -67,44 +71,64 @@ body{
 /*---------------------------------------------------profile-------------------------------------------------------------------------*/
 
 .profile-row{
-    padding-top: 0px;
+    /*padding-top: 0px;
     padding-bottom: 15px;
     padding-right: 30px;
-    padding-left: 30px;
-    margin-left: 20px !important;
-    margin-right: 20px !important;
+    padding-left: 30px;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
+    /*margin-left: 20px !important;
+    margin-right: 20px !important;*/
+    transition: top 0.3s;
 }
 
 .profile-card{
+    margin-top: 1% !important;
     border: 1px solid #e0e0e0; 
     border-radius: 5px;
-    padding: 15px;
+    padding: 2% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-title-col{
-    padding-top: 15px;
-    padding-bottom: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 .profile-left-col{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .profile-right-col{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2% !important;
+    margin: 0 !important;
 }
 
 .profile-pic{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .profile-pic img{
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -112,96 +136,141 @@ body{
     /*font-size: 20px;
     font-weight:normal;*/
     margin-bottom: 0px;
-    padding-left: 30px;
 }
 
 /*-----------------------------------------------------Education-----------------------------------------------------------------------*/
 
 .edu-row{
-    padding-top: 15px;
+    /*padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
     margin-left: 20px !important;
-    margin-right: 20px !important;
+    margin-right: 20px !important;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
 }
 
 .edu-title-col{
-    padding-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 1%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
-.edu-dt-col{
+.edu-card{
+    margin-top: 1% !important;
     border: 1px solid #e0e0e0; 
     border-radius: 5px;
-    padding: 15px;
-}
-
-.edu-dt-col h6{
-    display: flex; 
-    justify-content: center; 
+    padding: 2% !important;
+    display: grid;
+    justify-content: center;
     align-items: center;
-    /*font-size: 20px;
-    font-weight:normal;*/
 }
 
 /*------------------------------------------------Experiances----------------------------------------------------------------------------*/
 
 .exp-row{
-    padding-top: 15px;
+    /*padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
     margin-left: 20px !important;
-    margin-right: 20px !important;
+    margin-right: 20px !important;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
 }
 
 .exp-title-col{
-    padding-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 1%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
-.exp1{
-    display: flex; 
-    justify-content: center;
+.exp-card{
+    margin-top: 1% !important;
     border: 1px solid #e0e0e0; 
     border-radius: 5px;
+    padding: 2% !important;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 /*---------------------------------------------Project-------------------------------------------------------------------------------*/
 
 .project-row{
-    padding-top: 15px;
+    /*padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
     margin-left: 20px !important;
-    margin-right: 20px !important;
+    margin-right: 20px !important;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
 }
 
 .project-title-col{
-    padding-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 1%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 .project-card{
+    margin-top: 1% !important;
     border: 1px solid #e0e0e0; 
     border-radius: 5px;
-    padding: 15px;
-    margin-bottom: 15px;
+    padding: 2% !important;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 
 /*---------------------------------------------Personal Info-------------------------------------------------------------------------------*/
 
 .perinfo-row{
-    padding-top: 15px;
+    /*padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
     margin-left: 20px !important;
-    margin-right: 20px !important;
+    margin-right: 20px !important;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
 }
 
 .perinfo-title-col{
-    padding-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 1%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 .perinfo-table {
@@ -234,50 +303,77 @@ body{
 /*---------------------------------------------Skills-------------------------------------------------------------------------------*/
 
 .skill-row{
-    padding-top: 15px;
+    /*padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
     margin-left: 20px !important;
-    margin-right: 20px !important;
+    margin-right: 20px !important;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
 }
 
 .skill-card{
+    margin-top: 1% !important;
     border: 1px solid #e0e0e0; 
     border-radius: 5px;
-    padding: 15px;
+    padding: 2% !important;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-card h6{
+    margin-bottom: 0%;
 }
 
 .skill-title-col{
-    padding-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 1%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 .skill-left{
     display: flex;
-    justify-content: end;
+    justify-content: start;
     align-items: center;
 }
 
 .skill-right{
     padding-top: 10px;
+    margin-bottom: 3%;
 }
 
 /*---------------------------------------------footer-------------------------------------------------------------------------------*/
 
 .footer{
-    padding-top: 15px;
+    /*padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px;
-    background-color: navy;
+    background-color: #0f1056;
     color: white;
     margin-left: -16px !important;
+    margin-right: -16px !important;*/
+
+    margin-left: -16px !important;
     margin-right: -16px !important;
+    background-color: #0f1056;
+    padding: 1%;
+    color: white;
 }
 
 .socialmedia a{
     text-decoration: none; 
     color: white;
+    padding: 0;
 }
 
 .socialmedia a:hover{
