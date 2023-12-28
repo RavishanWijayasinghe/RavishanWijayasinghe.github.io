@@ -43,12 +43,16 @@ document.addEventListener("DOMContentLoaded", function() {
     window.onscroll = function() {
         let currentScrollPos = window.pageYOffset;
 
-        if (prevScrollPos > currentScrollPos) {
+        if (prevScrollPos > currentScrollPos || currentScrollPos<=0) {
             document.getElementById("header").style.top = "0";
-        } else {
+        } 
+        
+        else {
             document.getElementById("header").style.top = "-200px"; // Adjust the height of the header
             document.getElementById("profile").style.top = "0";
         }
+
+        if(currentScrollPos==0){}
 
         prevScrollPos = currentScrollPos;
     };
