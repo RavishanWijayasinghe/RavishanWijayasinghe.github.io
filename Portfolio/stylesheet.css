@@ -241,9 +241,9 @@ body{
     border: 1px solid #e0e0e0; 
     border-radius: 5px;
     padding: 2% !important;
-    display: grid;
+    /*display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
 
 
@@ -343,7 +343,6 @@ body{
 .skill-left{
     display: flex;
     justify-content: start;
-    align-items: center;
 }
 
 .skill-right{
